@@ -1,7 +1,15 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
 table, th, td {
     border: 1px solid black;
 }
 
 table {
     border-collapse: collapse;
+}
+
+td {
+    text-align: right;
 }
