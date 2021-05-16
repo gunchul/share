@@ -1,15 +1,26 @@
-body {
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-
-table, th, td {
-    border: 1px solid black;
+p {
+    font: 20px sans-serif;
 }
 
 table {
+    border: 1px solid black;
     border-collapse: collapse;
 }
 
-td {
+tr, th, td {
+    border: 1px solid black;
+    padding: 8px;
     text-align: right;
+}
+
+td {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+tr:hover {
+    background-color: #ffff99;
+}
+
+tr:nth-child(even) {
+    background-color: #e2e2e2;
 }
